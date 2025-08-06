@@ -6,7 +6,7 @@ import requests
 import pandas as pd
 
 
-def load_disease_model(path="model/disease_model.h5"):
+def load_disease_model(path="skindisease.keras"):
     return load_model(path)
 
 
@@ -45,3 +45,4 @@ def scrape_doctors(city, specialty="dermatology"):
             continue
 
     return pd.DataFrame(data)
+
