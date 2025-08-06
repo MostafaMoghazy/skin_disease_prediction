@@ -7,7 +7,7 @@ import pandas as pd
 
 
 def load_disease_model():
-    return load_model("skindisease.keras")
+    return load_model("skindisease.h5")
 
 
 
@@ -46,6 +46,7 @@ def scrape_doctors(city, specialty="dermatology"):
             continue
 
     return pd.DataFrame(data)
+
 
 
 
