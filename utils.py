@@ -7,8 +7,8 @@ import pandas as pd
 
 
 def load_disease_model():
-    path = os.path.join(os.path.dirname(__file__), 'skindisease.keras')
-    return load_model(path)
+    return load_model("skindisease.h5")
+
 
 
 def predict_disease(model, img_file, class_names):
@@ -46,6 +46,7 @@ def scrape_doctors(city, specialty="dermatology"):
             continue
 
     return pd.DataFrame(data)
+
 
 
 
