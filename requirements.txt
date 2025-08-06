@@ -1,0 +1,9 @@
+streamlit
+tensorflow
+numpy
+matplotlib
+pandas
+Pillow
+requests
+beautifulsoup4
+lxml
