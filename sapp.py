@@ -5,7 +5,7 @@ import tensorflow as tf
 from PIL import Image
 
 # Load model
-model = tf.keras.models.load_model("skindisease.keras")
+model = tf.keras.models.load_model("model.h5")
 
 # Load doctor data
 # doctors_df = pd.read_csv("doctors.csv")
